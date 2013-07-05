@@ -1,0 +1,3 @@
+{
+	"languages/theme.pot": "languages/{%= prefix %}.pot"
+}

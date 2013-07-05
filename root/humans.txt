@@ -1,0 +1,13 @@
+/* TEAM */
+	Developer: {%= author_name %}
+	Contact:   {%= author_email %}
+	URI:       {%= author_url %}
+
+/* THANKS */
+	Template Design: Yoshifumi Shiiba
+	URI:             http://imdev.tumblr.com
+	Twitter:         @Y_Shiiba
+	
+/* SITE */
+	Created:  {%= grunt.template.today("yyyy-mm-dd") %}
+
