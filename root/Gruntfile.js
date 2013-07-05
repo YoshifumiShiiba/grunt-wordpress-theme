@@ -58,6 +58,14 @@ module.exports = function( grunt ) {
 				}
 			},
 
+			stylesheets: {
+				files: ['assets/css/css/*.css'],
+				tasks: ['cssmin'],
+				options: {
+					debounceDelay: 500
+				}
+			},
+
 			coffee: {
 				files: ['assets/js/coffee/*.coffee'],
 				tasks: ['coffee'],

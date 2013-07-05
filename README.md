@@ -8,6 +8,7 @@ Features using with grunt.
 
 * Compass: Sass, Scss
 * CoffeeScript
+* Twitter Bootstrap 2.3.2
 
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
@@ -17,7 +18,7 @@ Features using with grunt.
 In your `~/.grunt-init/` directory. Git clone this template into this directory:
 
 ```
-git clone git@github.com:YoshifumiShiiba/grunt-wordpress-theme.git ~/.grunt-init/wordpress-theme
+git clone https://github.com/YoshifumiShiiba/grunt-wordpress-theme.git ~/.grunt-init/wordpress-theme
 ```
 
 ## Usage
@@ -39,4 +40,12 @@ After running all setups, follow this command and use grunt and starting coding:
 ```
 grunt watch
 ```
+
+If You want to use Twitter Bootstrap in your sass file, Put this code:
+
+```
+@import ../vendor/sass-twitter-bootstrap/bootstrap
+@import ../vendor/sass-twitter-bootstrap/responsive
+```
+
 
